@@ -68,3 +68,17 @@ function getHash(url) {
     var hashPos = url.lastIndexOf('#');
     return url.substring(hashPos + 1);
 }
+
+function gametime()
+{
+	document.getElementById("first").innerHTML = "Beethoven - Moonlight Sonata";
+	document.getElementById("second").innerHTML = "Stacy's Mom";
+	document.getElementById("third").innerHTML = "Do You Like Waffles";
+	document.getElementById("fourth").innerHTML = "Worth It";
+	document.getElementById("fifth").innerHTML = "Mario Theme";
+	document.getElementById("sixth").innerHTML = "Lollipop";
+}
+function rebel()
+{
+	document.getElementById("wow").innerHTML = "You little rebel. I like you.";
+}

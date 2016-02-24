@@ -44,15 +44,7 @@ ul#tabs li a.selected
     padding: 0.7em 0.3em 0.38em 0.3em; 
 }
 
-#git
-{
-	position: absolute; 
-	bottom: 0; 
-	right: 0; 
-	width: 100px; 
-	text-align:right;
-	
-}
+
 a:visited
 {
 	color:white

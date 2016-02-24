@@ -10,19 +10,22 @@
        <ul id="tabs">
             <li><a href="#home">HOME</a></li>
             <li><a href="#assignments">Assignments</a></li>
-            
+            <li><a href="#ambiance">Ambiance</a></li>
         </ul>
 
         <div class="tabContent" id="home">
             <h1>Main Page</h1>
             <div>
-                <p>*Website best viewed with 
-				<a href="https://www.youtube.com/watch?v=4Tr0otuiQuU"> this song</a>* </p>
+                
 				<p>This is the main page of the site. From here you can admire the CSS used to format it. Or you can go to another tab and look at the other cool stuff I made. </p>
+				<p>
+					I also have a github you can check out if you're interested. <a href="https://github.com/c-mclaughlin">c-mclaughlin github</a>
+				</p>
+				
             </div>
         </div>
         <div class="tabContent" id="assignments">
-            <h2>List of Assignments</h2>
+            <h1>List of Assignments</h1>
             <div>
                 <p>Below you can find a list of everything I've done so far. </p>
 				<ul>
@@ -31,8 +34,55 @@
 				</ul>
             </div>
         </div>
-        <div id="git">
-			<a href="https://github.com/c-mclaughlin">c-mclaughlin github</a>
+		<div class="tabContent" id="ambiance">
+			<div>Perhaps you would enjoy some background music? Or a game? Or both? Click the buttons to reveal the song titles. Or not. It'd be funnier that way.</div>
+			<br />
+			<button type="button"
+			onclick="gametime()">
+			Click me if you aren't brave.</button>
+			
+			<br />		
+			<p id="first"></p>
+			<audio controls>
+				
+					<source src="music/Beethoven.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			</audio>
+			<p id="second"></p>
+			<audio controls>
+				
+					<source src="music/Stacy.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			</audio>
+			<p id="third"></p>
+			<audio controls>
+				
+					<source src="music/Waffles.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			</audio>
+			<p id="fourth"></p>
+			<audio controls>
+				
+					<source src="music/Worthit.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			</audio>
+			<p id="fifth"></p>
+			<audio controls>
+				
+					<source src="music/Mario.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			</audio>
+			<p id="sixth"></p>
+			<audio controls>
+				
+					<source src="music/Lollipop.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+			</audio>
 		</div>
+        <p id="wow">
+					<button type="button"
+			onclick="rebel()">
+			DO NOT CLICK</button>
+				</p>
     </body>
 </html>
