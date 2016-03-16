@@ -82,3 +82,14 @@ function rebel()
 {
 	document.getElementById("wow").innerHTML = "You little rebel. I like you.";
 }
+
+function gameStart()
+{
+	document.getElementById("first").innerHTML = "";
+	document.getElementById("second").innerHTML = "";
+	document.getElementById("third").innerHTML = "";
+	document.getElementById("fourth").innerHTML = "";
+	document.getElementById("fifth").innerHTML = "";
+	document.getElementById("sixth").innerHTML = "";
+}
+

@@ -11,6 +11,7 @@
             <li><a href="#home">HOME</a></li>
             <li><a href="#assignments">Assignments</a></li>
             <li><a href="#ambiance">Ambiance</a></li>
+			
         </ul>
 
         <div class="tabContent" id="home">
@@ -22,6 +23,7 @@
 					I also have a github you can check out if you're interested. <a href="https://github.com/c-mclaughlin">c-mclaughlin github</a>
 				</p>
 				
+				
             </div>
         </div>
         <div class="tabContent" id="assignments">
@@ -31,18 +33,24 @@
 				<ul>
 					<li><a href="hello.html">Hello, World!</a></li>
 					<li><a href="neatstuff.html">Ad Recreation</a></li>
-					<li><a href="Annotation.css">CSS Annotation</a></li>
+					<li><a href="Annotation.pdf">CSS Annotation</a></li>
+					<li><a href="JQ/JQ.html">JQuery Page</a></li>
 				</ul>
             </div>
         </div>
 		<div class="tabContent" id="ambiance">
-			<div>Perhaps you would enjoy some background music? Or a game? Or both? Click the buttons to reveal the song titles. Or not. It'd be funnier that way.</div>
+			<div>Perhaps you would enjoy some background music? Or a game? Or both? Click the button to reveal the song titles. Or not. It'd be funnier that way.</div>
 			<br />
 			<button type="button"
 			onclick="gametime()">
 			Click me if you aren't brave.</button>
 			
-			<br />		
+				
+			<button type="button"
+			onclick="gameStart()">
+			Click me if you already cheated.</button>
+			
+			<br />	
 			<p id="first"></p>
 			<audio controls>
 				
@@ -80,6 +88,8 @@
 					Your browser does not support the audio element.
 			</audio>
 		</div>
+		
+
         <p id="wow">
 					<button type="button"
 			onclick="rebel()">

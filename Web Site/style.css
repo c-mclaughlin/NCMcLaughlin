@@ -44,7 +44,11 @@ ul#tabs li a.selected
     padding: 0.7em 0.3em 0.38em 0.3em; 
 }
 
-
+canvas
+{
+	border: 3px solid #000000;
+	background-color: #f1f1f1
+}
 a:visited
 {
 	color:white
